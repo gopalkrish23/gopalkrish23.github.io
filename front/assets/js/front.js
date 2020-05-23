@@ -99,7 +99,7 @@ $(document).ready(function () {
                 down: 0
             },
         });
-        headroom.init();
+        // headroom.init();
     }
 
     // Background images for sections

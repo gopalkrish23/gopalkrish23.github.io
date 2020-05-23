@@ -12349,7 +12349,7 @@ a.text-gray-800:hover, a.text-gray-800:focus {
 
 .headroom {
   will-change: transform;
-  background-color: inherit;
+  background-color: #0648B3;
   transition: all 0.2s ease; }
   @media (prefers-reduced-motion: reduce) {
     .headroom {
@@ -16910,8 +16910,11 @@ button.section-gray-800:focus {
 /**
  * = Navigation bars
  */
+.fixed-top {
+  position: fixed;
+  display: block; }
+
 .navbar-main {
-  position: absolute;
   top: 0;
   width: 100%;
   z-index: 100; }
@@ -24907,5 +24910,20 @@ article .h1, article .h2, article .h3, article .h4, article .h5, article .h6 {
     transform: translateY(-3px); }
   100% {
     transform: translateY(0); } }
+
+@media all and (min-width: 1001px) {
+  .index-carousel {
+    width: 100% !important;
+    height: 800px; } }
+
+@media all and (max-width: 1000px) and (min-width: 700px) {
+  .index-carousel {
+    width: 100% !important;
+    height: 800px; } }
+
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+  .index-carousel {
+    width: 100% !important;
+    height: 450px; } }
 
 /*# sourceMappingURL=front.css.map */
