@@ -1,0 +1,16 @@
+.index-carousel{
+      @media all and (min-width: 1001px) {
+        width: 100% !important;
+        height: 800px;
+      }
+      
+      @media all and (max-width: 1000px) and (min-width: 700px) {
+        width: 100% !important;
+        height: 800px;
+      }
+      
+      @media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+        width: 100% !important;
+        height: 450px;
+      }
+}
